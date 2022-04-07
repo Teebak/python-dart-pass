@@ -1,0 +1,61 @@
+
+abstract class animal {
+
+	void printName();
+	void printSound();
+}
+
+class DOG extends animal{
+	
+	void printSound()
+	{
+		print("Woof !!");
+	}
+
+	
+	void printName()
+	{
+		print("dog");
+	}
+}
+
+class CAT extends animal{
+	
+	void printSound()
+	{
+		print("meoww :3 ");
+	}
+
+	
+	void printName()
+	{
+		print("cat");
+	}
+}
+class COW extends animal{
+
+	void printSound()
+	{
+		print(" moooo :0 ");
+	}
+
+	
+	void printName()
+	{
+		print("cow");
+	}
+
+  
+}
+main()
+{
+	DOG boby = new DOG();
+	boby.printName();
+	boby.printSound();
+  CAT lolo = new CAT();
+  	lolo.printName();
+	lolo.printSound();
+  COW lisa = new COW();
+  lisa.printName();
+  lisa.printSound();
+}
