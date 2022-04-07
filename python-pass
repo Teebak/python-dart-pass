@@ -1,0 +1,17 @@
+def fun():
+ myList = []
+ size = int(input("Enter x value: "))
+
+
+ for i in range(size):
+     element = int(input())
+     myList.append(element)
+
+
+ for i in range(size):
+     if (myList[i] % 2) == 0:
+         print(myList[i], "is even")
+     else:
+         print(myList[i], "is odd")
+
+fun()
