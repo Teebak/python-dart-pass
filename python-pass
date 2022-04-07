@@ -14,4 +14,5 @@ def fun():
      else:
          print(myList[i], "is odd")
 
+
 fun()
