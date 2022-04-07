@@ -1,0 +1,2 @@
+//Q1/ANS/
+//since DateTime.now() gives current time. and obviously having it as const doesn't make sense, as time changes every fraction, we can use different parameter types.
